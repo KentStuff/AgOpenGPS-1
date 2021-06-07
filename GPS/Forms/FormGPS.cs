@@ -704,6 +704,12 @@ namespace AgOpenGPS
             p_254.pgn[p_254.sc9to16] = (byte)0;
 
             int machine = 0;
+            if (bnd.bndArr.Count > 0)
+            {
+                if (IsInsideGeoFenceAKABoundary()) section[7].isSectionOn = true;
+                else section[7].isSectionOn = false;
+            }
+
 
             //check if super section is on
             if (section[tool.numOfSections].isSectionOn)
@@ -730,6 +736,8 @@ namespace AgOpenGPS
                     reset += 1;
                 }
             }
+            
+
 
             //sections in autosteer
             p_254.pgn[p_254.sc9to16] = unchecked((byte)(machine >> 8));
@@ -1265,6 +1273,7 @@ namespace AgOpenGPS
                     //decrement the timer if not zero
                     #endregion notes
                 }
+               
             }
         }
 
