@@ -2756,6 +2756,7 @@
             this.label1.Size = new System.Drawing.Size(38, 25);
             this.label1.TabIndex = 290;
             this.label1.Text = "16";
+            this.label1.Visible = false;
             // 
             // nudSection16
             // 
@@ -2778,6 +2779,7 @@
             0,
             0,
             0});
+            this.nudSection16.Visible = false;
             this.nudSection16.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // label4
@@ -2791,6 +2793,7 @@
             this.label4.Size = new System.Drawing.Size(38, 25);
             this.label4.TabIndex = 288;
             this.label4.Text = "15";
+            this.label4.Visible = false;
             // 
             // label19
             // 
@@ -2803,6 +2806,7 @@
             this.label19.Size = new System.Drawing.Size(38, 25);
             this.label19.TabIndex = 287;
             this.label19.Text = "14";
+            this.label19.Visible = false;
             // 
             // label30
             // 
@@ -2815,6 +2819,7 @@
             this.label30.Size = new System.Drawing.Size(38, 25);
             this.label30.TabIndex = 286;
             this.label30.Text = "13";
+            this.label30.Visible = false;
             // 
             // nudSection15
             // 
@@ -2837,6 +2842,7 @@
             0,
             0,
             0});
+            this.nudSection15.Visible = false;
             this.nudSection15.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // nudSection14
@@ -2860,6 +2866,7 @@
             0,
             0,
             0});
+            this.nudSection14.Visible = false;
             this.nudSection14.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // nudSection13
@@ -2883,6 +2890,7 @@
             0,
             0,
             0});
+            this.nudSection13.Visible = false;
             this.nudSection13.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // label32
@@ -2932,6 +2940,7 @@
             this.label40.Size = new System.Drawing.Size(38, 25);
             this.label40.TabIndex = 282;
             this.label40.Text = "12";
+            this.label40.Visible = false;
             // 
             // label39
             // 
@@ -2944,6 +2953,7 @@
             this.label39.Size = new System.Drawing.Size(38, 25);
             this.label39.TabIndex = 281;
             this.label39.Text = "11";
+            this.label39.Visible = false;
             // 
             // label38
             // 
@@ -2956,6 +2966,7 @@
             this.label38.Size = new System.Drawing.Size(38, 25);
             this.label38.TabIndex = 280;
             this.label38.Text = "10";
+            this.label38.Visible = false;
             // 
             // label37
             // 
@@ -2965,9 +2976,9 @@
             this.label37.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label37.Location = new System.Drawing.Point(38, 37);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(25, 25);
+            this.label37.Size = new System.Drawing.Size(312, 25);
             this.label37.TabIndex = 279;
-            this.label37.Text = "9";
+            this.label37.Text = "9 -16 Turned off in MicroGPS";
             // 
             // label41
             // 
@@ -2975,11 +2986,11 @@
             this.label41.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.Black;
             this.label41.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label41.Location = new System.Drawing.Point(796, 157);
+            this.label41.Location = new System.Drawing.Point(736, 157);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(25, 25);
+            this.label41.Size = new System.Drawing.Size(113, 25);
             this.label41.TabIndex = 278;
-            this.label41.Text = "8";
+            this.label41.Text = "GeoFence";
             // 
             // label45
             // 
@@ -3050,6 +3061,7 @@
             0,
             0,
             0});
+            this.nudSection12.Visible = false;
             this.nudSection12.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // nudSection11
@@ -3073,6 +3085,7 @@
             0,
             0,
             0});
+            this.nudSection11.Visible = false;
             this.nudSection11.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // nudSection10
@@ -3096,6 +3109,7 @@
             0,
             0,
             0});
+            this.nudSection10.Visible = false;
             this.nudSection10.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // nudSection9
@@ -3119,6 +3133,7 @@
             0,
             0,
             0});
+            this.nudSection9.Visible = false;
             this.nudSection9.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // nudSection8
@@ -3142,6 +3157,7 @@
             0,
             0,
             0});
+            this.nudSection8.Visible = false;
             this.nudSection8.Click += new System.EventHandler(this.NudSection1_Click);
             // 
             // nudSection7
